@@ -1,3 +1,4 @@
+import 'package:avd_final_exam/component/home_component.dart';
 import 'package:avd_final_exam/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,8 +17,8 @@ class HomePage extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(20,20,20,0),
               child: IndexedStack(
                 index: controller.index.value,
-                children: [
-
+                children:  [
+                  HomeCom(),
                 ],
               ),
             );
