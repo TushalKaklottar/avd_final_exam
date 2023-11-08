@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986701073504",
+    "project_id": "adv-final-exam",
+    "storage_bucket": "adv-final-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986701073504:android:22daf0826c524dd051c705",
+        "android_client_info": {
+          "package_name": "com.example.avd_final_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnz3GYAtDWi8Ee9njeBMQNirvU3EWg1Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
