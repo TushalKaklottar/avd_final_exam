@@ -24,4 +24,12 @@ class HomeController extends GetxController {
     category.value = val;
     update();
   }
+
+  updateFavourite(String id, bool val) {
+    return food
+        .doc(id)
+        .update({'fav': !val})
+        .then((value) => print("Value Updated..."))
+        .catchError((error) => print("Error :: $error"));
+  }
 }
