@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
                 index: controller.index.value,
                 children:  [
                   HomeCom(),
+
                 ],
               ),
             );
@@ -28,19 +29,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-// child: IndexedStack(
-// index: controller.index.value,
-// children: const [
-// Home(),
-// Chat(),
-// AddCart(),
-// Favourite(),
-// ],
-// ),
-// );
-// }),
-// ),
-// bottomNavigationBar: const BottomBar(),
-// );
-// }
-// }

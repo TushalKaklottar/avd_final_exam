@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-
 import '../models/models.dart';
 
 class HomeController extends GetxController {
@@ -18,6 +17,11 @@ class HomeController extends GetxController {
   }
   pageIndex(int val) {
     index.value = val;
+    update();
+  }
+
+  selectCategory(String val) {
+    category.value = val;
     update();
   }
 }
